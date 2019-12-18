@@ -6,6 +6,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-- Types for Qt5.14
+- 0.0.1 (Types for Qt5.14)
 
 - Initial release
