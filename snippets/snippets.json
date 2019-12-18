@@ -1,0 +1,47 @@
+{
+    "import": {
+        "prefix": "import",
+        "body": "import ${1:module} ${2:1.0}",
+        "description": "import module",
+        "scope": "source.qml"
+    },
+    "Item": [
+        {
+            "prefix": "Item(1)",
+            "body": [
+                "Item {",
+                "\tid: $1",
+                "\twidth: $2; height: $3",
+                "}$0"
+            ],
+            "description": "Item type",
+            "scope": "source.qml"
+        },
+        {
+            "prefix": "Item(2)",
+            "body": [
+                "Item {",
+                "\t$1",
+                "}$0"
+            ],
+            "description": "Item type",
+            "scope": "source.qml"
+        }
+    ],
+    "Rectangle": {
+        "prefix": "Rectangle",
+        "body": [
+            "Rectangle {",
+            "\t$1",
+            "}$0"
+        ],
+        "description": "Rectangle type",
+        "scope": "source.qml"
+    },
+    "id": {
+        "prefix": "id",
+        "body": "id: $1",
+        "description": "id attribute",
+        "scope": "source.qml"
+    }
+}

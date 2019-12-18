@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "build",
+            "command": "${workspaceFolder}\\build.bat",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "type": "shell",
+            "label": "run",
+            "command": "${workspaceFolder}\\${workspaceFolderBasename}.exe",
+            "problemMatcher": []
+        },
+        {
+            "type": "shell",
+            "label": "qmlscene",
+            "command": "qmlscene ${fileDirname}\\${fileBasename}",
+            "problemMatcher": []
+        },
+        {
+            "type": "shell",
+            "label": "python",
+            "command": "python ${fileDirname}\\${fileBasename}",
+            "problemMatcher": []
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "name": "QML",
+    "displayName": "QML",
+    "description": "Qt QML Language Support for Microsoft VSCode",
+    "publisher": "madoodia",
+    "version": "0.0.1",
+    "author": {
+        "name": "madoodia.com"
+    },
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Programming Languages",
+        "Snippets"
+    ],
+    "icon": "",
+    "galleryBanner": {
+        "color": "#FFFFFF",
+        "theme": "light"
+    },
+    "license": "MIT License",
+    "bugs": {
+        "url": "https://github.com/madoodia/vscode-extension-qml/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/madoodia/vscode-extension-qml"
+    },
+    "homepage": "https://github.com/madoodia/vscode-extension-qml",
+    "contributes": {
+        "languages": [
+            {
+                "id": "qml",
+                "aliases": [
+                    "QML",
+                    "qml"
+                ],
+                "extensions": [
+                    ".qml",
+                    ".qmlproject"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "qml",
+                "scopeName": "source.qml",
+                "path": "./syntaxes/qml.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "qml",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "__metadata": {
+        "id": "",
+        "publisherId": "",
+        "publisherDisplayName": "madoodia (madoodia.com)"
+    }
+}
