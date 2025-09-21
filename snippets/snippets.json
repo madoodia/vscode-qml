@@ -43,5 +43,11 @@
         "body": "id: $1",
         "description": "id attribute",
         "scope": "source.qml"
+    },
+    "property": {
+        "prefix": "property",
+        "body": "property $type $name : $value",
+        "description": "create new property",
+        "scope": "source.qml"
     }
 }

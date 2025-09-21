@@ -1,5 +1,5 @@
 {
-	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"$schema": "http://json-schema.org/schema#",
 	"name": "QML",
 	"patterns": [
 		{
@@ -40,8 +40,12 @@
 		"allKeywords": {
 			"patterns": [
 				{
+					"name": "keyword.control.directive",
+					"match": "\\b(import)\\b"
+				},
+				{
 					"name": "keyword.control",
-					"match": "\\b(import|function|true|false|property|if|else|while|for)\\b"
+					"match": "\\b(function|true|false|property|if|else|while|for)\\b"
 				},
 				{
 					"name": "keyword.control",
